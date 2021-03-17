@@ -1,0 +1,16 @@
+Source: mfoc-hardnested
+Section: utils
+Priority: optional
+Maintainer: gelotus <gelotus@github.com>
+Uploaders: gelotus <gelotus@github.com>
+Build-Depends: debhelper (>= 11), libnfc-dev, liblzma-dev, pkg-config
+Standards-Version: 4.1.5
+Homepage: https://github.com/nfc-tools/mfoc-hardnested/
+
+Package: mfoc-hardnested
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: MIFARE Classic offline cracker
+ This package includes the mfoc program which cracks the
+ encryption keys of the MIFARE Classic chip and dumps the
+ chip's memory contents to a file.

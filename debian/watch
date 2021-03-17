@@ -1,0 +1,3 @@
+version=4
+
+https://github.com/nfc-tools/mfoc-hardnested/tags/ .*/mfoc-hardnested_(.*)\.tar\.gz
